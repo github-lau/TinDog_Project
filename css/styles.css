@@ -125,3 +125,36 @@ p {
 .price-col {
     padding: 3% 2%;
 }
+
+/* Call-to-action Segment */
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    color: #fff;
+    padding: 7% 15%;
+}
+
+/* Footer Segment */
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.icon-social {
+    margin: 20px 10px;
+}
+
+.icon-social:hover {
+    text-shadow: 2px 2px 5px;
+}
+
+@media (max-width: 992px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
